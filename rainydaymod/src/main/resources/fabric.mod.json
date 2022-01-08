@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "deliveried",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Rainy Day",
+  "description": "For those rainy days. Adds different kinds of rainy weather to Minecraft.",
   "authors": [
-    "Me!"
+    "deliveried"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -14,16 +14,16 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/deliveried/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "deliveried.rainy.day.RainyDay"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "deliveried.mixins.json"
   ],
 
   "depends": {
